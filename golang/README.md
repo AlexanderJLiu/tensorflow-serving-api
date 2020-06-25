@@ -36,7 +36,7 @@
 ### protoc
 
 1. Protoc is used to compile protocol buffer files.
-2. Go to the release page of [protobuf](https://github.com/protocolbuffers/protobuf/releases) and download the laest `protoc` binary tarball.
+2. Go to the release page of [protobuf](https://github.com/protocolbuffers/protobuf/releases) and download the latest `protoc` binary tarball.
 
    ```shell
    wget https://github.com/protocolbuffers/protobuf/releases/download/v3.12.3/protoc-3.12.3-linux-x86_64.zip
@@ -62,7 +62,7 @@
 
 ### protoc-gen-go
 
-1. protoc-gen-go is a plugin of protoc to generate go files.
+1. protoc-gen-go is a plugin of protoc to generate `go` files.
 2. Run the following command to install the go protocol buffers plugin.
 
    ```shell

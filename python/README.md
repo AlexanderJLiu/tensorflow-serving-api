@@ -1,3 +1,8 @@
+<div align="center">
+    <img src="https://raw.githubusercontent.com/AlexanderJLiu/tensorflow-serving-api/master/images/python.png"
+        width="200" height="200">
+</div>
+
 # Tensorflow Serving API for Python
 
 1. Because there are pre-generated python API of tensorflow serving, We don't have to generate it ourselves.

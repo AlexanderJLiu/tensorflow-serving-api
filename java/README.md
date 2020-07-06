@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/AlexanderJLiu/tensorflow-serving-api/master/images/java.png"
-        width="150" height="200">
+        width="200" height="200">
 </div>
 
 # Tensorflow Serving API for Java

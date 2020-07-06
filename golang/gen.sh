@@ -1,7 +1,6 @@
 #! /bin/bash
 
-# PROJECT=/path/to/tensorflow-serving-api
-PROJECT=/mnt/d/Sina/develop/tensorflow-serving-api
+PROJECT=/path/to/tensorflow-serving-api
 version=2.2.0
 
 cd ${PROJECT}/tensorflow

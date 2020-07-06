@@ -57,7 +57,7 @@
 5. Test your installation.
 
     ```shell
-    protoc -h
+    protoc --version
     ```
 
 ### protoc-gen-go
@@ -120,7 +120,7 @@ protoc -I=serving -I=tensorflow --go_out=plugins=grpc:golang tensorflow/tensorfl
 protoc -I=serving -I=tensorflow --go_out=plugins=grpc:golang tensorflow/tensorflow/stream_executor/*.proto
 ```
 
-In above commands, `-I` specify the directory in which to search for imports. And it can be specified multiple times. `--go_out` specify the directory in which to save go files and also specify the plugins used for generation.
+In above commands, `-I` specify the directory in which to search for `proto imports`. And it can be specified multiple times. `--go_out` specify the directory in which to save go files and also specify the plugins used for generation.
 
 After executing the above commands, there will be two directory created in `golang` dir, one is `github.com` and another is `tensorflow_serving`. That's because all proto files of tensorflow have the `option go_package` in them, which specify the output dir of go files. However proto files of serving don't have the `go_package` option, it just create same output dir as the source code.
 

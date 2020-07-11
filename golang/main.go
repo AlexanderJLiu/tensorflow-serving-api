@@ -14,7 +14,7 @@ import (
 )
 
 var (
-	// Tensorflow serving grpc address.
+	// TensorFlow Serving grpc address.
 	address = "127.0.0.1:8500"
 )
 

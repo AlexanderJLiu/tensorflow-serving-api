@@ -3,7 +3,7 @@
         width="150" height="200">
 </div>
 
-# Tensorflow Serving API for Golang
+# TensorFlow Serving API for Golang
 
 ## Prerequisites
 
@@ -150,7 +150,7 @@ Also you can use the `gen.sh` script to generate go files.
 
 3. If you encouter following `cycle import` error, you should delete the `logging.pb.go` file in `tensorflow_serving/core` dir and `prediction_log.pb.go` file in `tensorflow_serving/apis` dir.
 
-   ```shell
+    ```shell
     import cycle not allowed
     package github.com/alex/tensorflow-serving-api-go
         imports tensorflow_serving/apis

@@ -3,7 +3,7 @@
         width="200" height="200">
 </div>
 
-# Tensorflow Serving API for Java
+# TensorFlow Serving API for Java
 
 ## Prerequisites
 
